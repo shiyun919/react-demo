@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+#main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.box1 {
+	text-align: center;
+}
+.box1 .judge {
+	margin: 40px auto 0px auto ;
+	padding: 20px 20px;
+    background: red;
+    display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+.header {
+	margin: 40px 0px 40px 0px ;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.header .rabbit {
+	margin-right: 40px;
+}
+
+.header .tortoise {
+	margin-left: 40px;
+}
+.header .rabbit .title,
+.header .tortoise .title {
+	margin-bottom: 20px;
+}
+.player {
+	transition: all 1s linear;
+}
+.track {
+	border: 1px solid green;
+	margin-top: 6px;
+	margin-bottom: 30px;
+}
